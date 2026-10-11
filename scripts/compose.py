@@ -4,21 +4,33 @@ main, out = sys.argv[1], sys.argv[2]
 preview = "--preview" in sys.argv          # 960x540 fast render of a time range
 rng = [float(x) for x in sys.argv[sys.argv.index("--range")+1].split(":")] if "--range" in sys.argv else None
 plan = json.load(open("edit_plan.json")); B = plan["broll"]; D = 158.4; d = 0.25
-inputs = ["-i", main] + sum((["-i", b["clip"]] for b in B), [])
+CH = [("work/main_%d.mp4" % i, L) for i, L in enumerate([40, 40, 40, 38.4])] if main == "chunks" else []
+inputs = (sum((["-i", c] for c, _ in CH), []) if CH else ["-i", main]) + sum((["-i", b["clip"]] for b in B), [])
 segs, t = [], 0.0
 for i, b in enumerate(B):
     segs.append(("main", t, b["start"] + d/2)); segs.append(("broll", i, b["end"] - b["start"] + d)); t = b["end"] - d/2
 segs.append(("main", t, D))
 SS = "3840:2160" if not preview else "1920:1080"
 fc, labels = [], []
+NM = sum(1 for x in segs if x[0] == "main"); base = len(CH) if CH else 1
+if CH:
+    import subprocess as sp
+    parts = []
+    for i, (c, L) in enumerate(CH):
+        act = float(sp.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", c]))
+        fc.append(f"[{i}:v]setpts=PTS*{L}/{act}[c{i}]"); parts.append(f"[c{i}]")
+    fc.append("".join(parts) + f"concat=n={len(CH)}:v=1:a=0,fps=30,split={NM}" + "".join(f"[m{j}]" for j in range(NM)))
+else:
+    fc.append(f"[0:v]split={NM}" + "".join(f"[m{j}]" for j in range(NM)))
+mj = 0
 for k, s in enumerate(segs):
     if s[0] == "main":
         a, e = s[1], s[2]; n = round((e - a) * 30)
-        src = f"[0:v]trim=start={a}:end={e},setpts=PTS-STARTPTS," + ("fps=30," if "--rawmain" in sys.argv else "")
-        z = f"1+0.08*on/{n}"
+        src = f"[m{mj}]trim=start={a}:end={e},setpts=PTS-STARTPTS," + ("fps=30," if "--rawmain" in sys.argv else "")
+        z = f"1+0.08*on/{n}"; mj += 1
     else:
         i, L = s[1], s[2]; n = round(L * 30)
-        src = f"[{i+1}:v]trim=duration={L},setpts=PTS-STARTPTS,"
+        src = f"[{i+base}:v]trim=duration={L},setpts=PTS-STARTPTS,"
         z = f"1+0.06*on/{n}"
     fc.append(f"{src}scale={SS}:flags=lanczos,zoompan=z='{z}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1920x1080:fps=30,setsar=1,format=yuv420p[s{k}]")
     labels.append((f"s{k}", s))
@@ -32,13 +44,13 @@ post = "ass=subs.ass:fontsdir=fonts"
 if preview: post += ",scale=960:540:flags=lanczos"
 fc.append(f"[{cur}]{post}[vout]")
 cmd = ["ffmpeg", "-nostdin", "-v", "error", "-stats", "-y"] + inputs + ["-i", "work/audio_final.wav", "-filter_complex", ";".join(fc),
-       "-map", "[vout]", "-map", f"{len(B)+1}:a"]
+       "-map", "[vout]", "-map", f"{len(B)+base}:a"]
 if rng: cmd += ["-ss", str(rng[0]), "-t", str(rng[1] - rng[0])]
 if preview:
     cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k"]
 else:
-    cmd += ["-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
-            "-x264-params", "vbv-maxrate=40000:vbv-bufsize=60000", "-r", "30",
+    cmd += ["-c:v", "libx264", "-profile:v", "high", "-preset", "slow", "-b:v", "20M", "-pix_fmt", "yuv420p",
+            "-x264-params", "vbv-maxrate=30000:vbv-bufsize=40000", "-r", "30",
             "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-movflags", "+faststart"]
 cmd += ["-shortest", out]
 print(" ".join(shlex.quote(c) for c in cmd)[:400], "...")
