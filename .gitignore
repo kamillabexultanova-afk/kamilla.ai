@@ -1,0 +1,9 @@
+*.mp4
+*.wav
+*.mp3
+frames/
+clips/
+broll/
+sfx/
+*.log
+node_modules/
