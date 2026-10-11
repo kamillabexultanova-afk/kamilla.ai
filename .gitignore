@@ -7,3 +7,7 @@ broll/
 sfx/
 *.log
 node_modules/
+work/
+fonts/
+preview*.mp4
+output.mp4

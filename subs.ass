@@ -1,0 +1,180 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Word,Montserrat ExtraBold,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,6,2,2,60,60,60,1
+Style: Key,Montserrat Black,118,&H0000D6FF,&H0000D6FF,&H00000000,&H8C000000,0,0,0,0,100,100,2,0,1,7,5,2,60,60,60,1
+Style: Accent,Montserrat Black,132,&H0000D6FF,&H0000D6FF,&H00000000,&H8C000000,0,0,0,0,100,100,2,0,1,8,6,2,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:00.47,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЧЕНЬ МНОГО
+Dialogue: 0,0:00:00.47,0:00:00.95,Accent,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\frz-6\t(0,110,\fscx135\fscy135\frz4)\t(110,200,\fscx92\fscy92\frz-2)\t(200,280,\fscx100\fscy100\frz0)}МОШЕННИКОВ
+Dialogue: 0,0:00:00.95,0:00:01.27,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЕСЛИ БЫ Я
+Dialogue: 0,0:00:01.27,0:00:01.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}САМА ПОКУПАЛА БЫ
+Dialogue: 0,0:00:01.95,0:00:02.59,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МНЕ КАЖЕТСЯ БЫЛО
+Dialogue: 0,0:00:02.59,0:00:02.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}БЫ НАМНОГО
+Dialogue: 0,0:00:02.95,0:00:03.23,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДОРОЖЕ
+Dialogue: 0,0:00:03.23,0:00:03.91,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ХА-ХА МОЖНО МНОГО
+Dialogue: 0,0:00:03.91,0:00:04.67,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МНОГО МЕСТ ОБОЙТИ
+Dialogue: 0,0:00:04.67,0:00:05.35,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}И СРАЗУ СТОЛЬКО
+Dialogue: 0,0:00:05.35,0:00:05.75,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЭМОЦИЙ
+Dialogue: 0,0:00:05.75,0:00:06.51,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЛУЧИТЬ РЕБЯТ
+Dialogue: 0,0:00:06.51,0:00:07.19,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕМ ПРИВЕТ
+Dialogue: 0,0:00:07.19,0:00:07.79,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СЕГОДНЯ
+Dialogue: 0,0:00:07.79,0:00:08.37,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЗАВЕРШАЕТСЯ
+Dialogue: 0,0:00:11.79,0:00:12.35,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПРЕКРАСНАЯ
+Dialogue: 0,0:00:12.35,0:00:13.03,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}НЕВЕРОЯТНАЯ
+Dialogue: 0,0:00:13.03,0:00:14.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НАША ПОСТОЯННАЯ И
+Dialogue: 0,0:00:14.95,0:00:16.23,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МОЖНО СКАЗАТЬ ЧТО
+Dialogue: 0,0:00:16.23,0:00:17.55,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЧЕНЬ ВЕРНЫЙ ДРУГ
+Dialogue: 0,0:00:17.55,0:00:17.79,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДА
+Dialogue: 0,0:00:17.79,0:00:19.62,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}АЙДАНА
+Dialogue: 0,0:00:19.63,0:00:20.47,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КАК У ВАС
+Dialogue: 0,0:00:20.47,0:00:21.66,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НАСТРОЕНИЕ
+Dialogue: 0,0:00:26.83,0:00:27.75,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СМОТРИТЕ РЕБЯТА МЫ
+Dialogue: 0,0:00:27.75,0:00:28.43,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}С ВИДОМ НА
+Dialogue: 0,0:00:28.43,0:00:28.91,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЧУНЦИН
+Dialogue: 0,0:00:28.91,0:00:29.43,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СИДИМ ТАК И
+Dialogue: 0,0:00:29.43,0:00:30.51,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}УЖИНАЕМ ВОН ТАМ
+Dialogue: 0,0:00:30.51,0:00:31.75,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДА В ЦЕЛОМ
+Dialogue: 0,0:00:31.87,0:00:32.35,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}АЙДАНА
+Dialogue: 0,0:00:32.35,0:00:33.19,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДАВАЙТЕ ВАМ ВОПРОС
+Dialogue: 0,0:00:33.19,0:00:33.71,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЗАДАМ КАКИЕ
+Dialogue: 0,0:00:33.71,0:00:34.55,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЖИДАНИЯ БЫЛИ И
+Dialogue: 0,0:00:34.55,0:00:35.27,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЛУЧИЛИ ЛИ ВЫ
+Dialogue: 0,0:00:35.27,0:00:36.11,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СВОИ ОЖИДАНИЯ И
+Dialogue: 0,0:00:36.11,0:00:36.83,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}РЕАЛЬНОСТЬ КАКОВА
+Dialogue: 0,0:00:36.83,0:00:37.15,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КАК ВАМ В
+Dialogue: 0,0:00:37.15,0:00:37.35,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЦЕЛОМ
+Dialogue: 0,0:00:37.35,0:00:37.67,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КИТАЙ
+Dialogue: 0,0:00:37.67,0:00:38.75,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КОРОТКО ОЖИДАНИЯ
+Dialogue: 0,0:00:38.75,0:00:39.21,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}БЫЛИ ЧИСТО
+Dialogue: 0,0:00:43.91,0:00:44.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЖИДАНИЯ В ЦЕЛОМ
+Dialogue: 0,0:00:44.95,0:00:45.43,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОНИ
+Dialogue: 0,0:00:45.43,0:00:46.23,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ОПРАВДАЛИСЬ
+Dialogue: 0,0:00:46.23,0:00:47.31,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТОЛЬКО БЫЛ МОМЕНТ
+Dialogue: 0,0:00:47.31,0:00:47.60,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}С ХРАМОМ
+Dialogue: 0,0:00:51.09,0:00:51.53,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НО В ЦЕЛОМ
+Dialogue: 0,0:00:51.53,0:00:51.93,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ ОЧЕНЬ
+Dialogue: 0,0:00:51.93,0:00:52.17,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КРУТО
+Dialogue: 0,0:00:52.17,0:00:52.57,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ ОЧЕНЬ
+Dialogue: 0,0:00:52.57,0:00:53.13,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КЛАССНО
+Dialogue: 0,0:00:53.13,0:00:53.69,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЛИЧНО
+Dialogue: 0,0:00:53.69,0:00:54.10,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДЛЯ СЕБЯ ОТМЕТИЛА
+Dialogue: 0,0:00:57.53,0:00:59.09,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОСТАТЬСЯ НО ПОСЛЕ
+Dialogue: 0,0:00:59.09,0:00:59.53,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТАКОГО АКТИВНОГО
+Dialogue: 0,0:01:06.13,0:01:07.01,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТЕПЕРЬ ХОЧУ ЗАДАТЬ
+Dialogue: 0,0:01:07.01,0:01:07.69,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВАМ ВОПРОС ПОЧЕМУ
+Dialogue: 0,0:01:07.69,0:01:08.60,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВЫ
+Dialogue: 0,0:01:08.87,0:01:09.27,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЗАНОВО
+Dialogue: 0,0:01:09.27,0:01:09.91,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДВАЖДЫ
+Dialogue: 0,0:01:09.91,0:01:10.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВЫБИРАЕТЕ НАС
+Dialogue: 0,0:01:10.63,0:01:11.51,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОТВЕТЬ ПОЖАЛУЙСТА
+Dialogue: 0,0:01:11.51,0:01:12.31,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЧЕНЬ ИНТЕРЕСНО
+Dialogue: 0,0:01:12.31,0:01:13.03,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЕСЛИ ЧЕСТНО
+Dialogue: 0,0:01:13.03,0:01:13.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВО-ПЕРВЫХ МНЕ
+Dialogue: 0,0:01:13.63,0:01:14.03,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОНРАВИЛИСЬ
+Dialogue: 0,0:01:14.03,0:01:14.23,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ИЛЬЯ
+Dialogue: 0,0:01:14.31,0:01:14.71,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}АРУЖАН
+Dialogue: 0,0:01:14.71,0:01:15.07,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОТОМУ ЧТО Я
+Dialogue: 0,0:01:15.07,0:01:15.55,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КОГДА ВЫБИРАЛА
+Dialogue: 0,0:01:15.55,0:01:15.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПЕРВЫЙ ТУР
+Dialogue: 0,0:01:15.95,0:01:16.31,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЯПОНИЮ
+Dialogue: 0,0:01:16.39,0:01:16.75,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КОРЕЮ
+Dialogue: 0,0:01:16.75,0:01:17.27,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОЧЕНЬ МНОГО
+Dialogue: 0,0:01:17.27,0:01:17.71,Accent,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\frz-6\t(0,110,\fscx135\fscy135\frz4)\t(110,200,\fscx92\fscy92\frz-2)\t(200,280,\fscx100\fscy100\frz0)}МОШЕННИКОВ
+Dialogue: 0,0:01:17.71,0:01:17.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}И МНЕ
+Dialogue: 0,0:01:17.95,0:01:18.15,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ИЛЬЯ
+Dialogue: 0,0:01:18.15,0:01:18.75,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПИШЕТ ГОВОРИТ ТО
+Dialogue: 0,0:01:18.75,0:01:19.03,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧТО МЫ В
+Dialogue: 0,0:01:19.03,0:01:19.67,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}АСТАНЕ ДАВАЙТЕ
+Dialogue: 0,0:01:19.67,0:01:20.07,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСТРЕТИМСЯ
+Dialogue: 0,0:01:20.07,0:01:20.31,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЛИЧНО
+Dialogue: 0,0:01:20.31,0:01:21.11,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЗНАКОМИМСЯ ТАМ
+Dialogue: 0,0:01:21.11,0:01:21.91,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КОФЕ ПОПЬЕМ ВСЕ
+Dialogue: 0,0:01:21.91,0:01:22.51,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}РАССКАЖЕМ МЫ
+Dialogue: 0,0:01:22.51,0:01:23.43,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСТРЕТИЛИСЬ ОН МНЕ
+Dialogue: 0,0:01:23.43,0:01:24.31,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ РАССКАЗАЛ Я
+Dialogue: 0,0:01:24.31,0:01:24.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}С НИМ
+Dialogue: 0,0:01:24.63,0:01:24.91,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЛИЧНО
+Dialogue: 0,0:01:24.91,0:01:25.99,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЗНАКОМИЛАСЬ И ОН
+Dialogue: 0,0:01:25.99,0:01:26.79,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДАВАЛ ВРЕМЯ ОН
+Dialogue: 0,0:01:26.79,0:01:26.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НЕ
+Dialogue: 0,0:01:26.95,0:01:27.27,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДАВИЛ
+Dialogue: 0,0:01:27.27,0:01:28.33,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОН ПОЛНОСТЬЮ ВСЕ
+Dialogue: 0,0:01:28.33,0:01:29.45,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СКАЗАЛ И ЭТО
+Dialogue: 0,0:01:29.45,0:01:30.09,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПРИТЯНУЛО ТО ЧТО
+Dialogue: 0,0:01:30.09,0:01:30.65,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}КАК БЫ ОТКРЫТОЙ
+Dialogue: 0,0:01:30.65,0:01:31.53,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДУШИ ЧЕЛОВЕК И
+Dialogue: 0,0:01:31.53,0:01:32.25,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧТО МНЕ БОЛЬШЕ
+Dialogue: 0,0:01:32.25,0:01:32.77,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕГО ПОНРАВИЛОСЬ
+Dialogue: 0,0:01:32.77,0:01:33.45,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НЕТУ ЗАВЫШЕННОЙ
+Dialogue: 0,0:01:33.45,0:01:33.73,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЦЕНЫ
+Dialogue: 0,0:01:33.73,0:01:34.49,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ ОЧЕНЬ КАК
+Dialogue: 0,0:01:34.49,0:01:34.69,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}БЫ
+Dialogue: 0,0:01:34.69,0:01:35.25,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КЛАССНО
+Dialogue: 0,0:01:35.25,0:01:36.05,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ ОЧЕНЬ ПО
+Dialogue: 0,0:01:36.05,0:01:36.97,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВОЗМОЖНОСТЯМ И
+Dialogue: 0,0:01:36.97,0:01:37.41,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}САМОЕ
+Dialogue: 0,0:01:37.41,0:01:37.85,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ИДЕАЛЬНОЕ
+Dialogue: 0,0:01:37.85,0:01:38.21,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТО ТО ЧТО
+Dialogue: 0,0:01:38.21,0:01:38.57,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЕСЛИ БЫ Я
+Dialogue: 0,0:01:38.57,0:01:39.25,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}САМА ПОКУПАЛА БЫ
+Dialogue: 0,0:01:39.25,0:01:39.89,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МНЕ КАЖЕТСЯ БЫЛО
+Dialogue: 0,0:01:39.89,0:01:40.25,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}БЫ НАМНОГО
+Dialogue: 0,0:01:40.25,0:01:41.24,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДОРОЖЕ
+Dialogue: 0,0:01:46.19,0:01:46.55,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МОЖЕТ БЫТЬ
+Dialogue: 0,0:01:46.55,0:01:46.83,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧУТЬ-ЧУТЬ
+Dialogue: 0,0:01:46.83,0:01:47.15,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДОРОЖЕ
+Dialogue: 0,0:01:47.15,0:01:47.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧЕМ САМИМ БЫ
+Dialogue: 0,0:01:47.63,0:01:48.39,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЕХАТЬ НО НАМНОГО
+Dialogue: 0,0:01:48.39,0:01:49.55,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ДЕШЕВЛЕ
+Dialogue: 0,0:01:49.55,0:01:50.47,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ИМЕННО НАМ ОЧЕНЬ
+Dialogue: 0,0:01:50.47,0:01:50.87,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВАЖНО ЧТОБЫ
+Dialogue: 0,0:01:50.87,0:01:51.27,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧЕЛОВЕК СЕБЯ
+Dialogue: 0,0:01:51.27,0:01:51.59,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧУВСТВОВАЛ
+Dialogue: 0,0:01:51.59,0:01:51.99,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КОМФОРТНО
+Dialogue: 0,0:01:51.99,0:01:53.11,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}НАШ КАЖДЫЙ ТУРИСТ
+Dialogue: 0,0:01:53.11,0:01:53.39,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КОМФОРТ
+Dialogue: 0,0:01:53.39,0:01:53.87,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВЫ ЧУВСТВОВАЛИ В
+Dialogue: 0,0:01:53.87,0:01:54.67,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЭТОТ РАЗ
+Dialogue: 0,0:01:54.67,0:01:55.00,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПО
+Dialogue: 0,0:01:58.63,0:01:59.39,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧТО МОЖЕШЬ СКАЗАТЬ
+Dialogue: 0,0:01:59.39,0:02:00.03,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДА ВСЕ ОЧЕНЬ
+Dialogue: 0,0:02:00.03,0:02:00.27,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КРУТО
+Dialogue: 0,0:02:00.27,0:02:00.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ ОЧЕНЬ
+Dialogue: 0,0:02:00.63,0:02:01.07,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КОМФОРТНО
+Dialogue: 0,0:02:01.07,0:02:01.67,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОТЕЛИ БЫЛИ
+Dialogue: 0,0:02:01.67,0:02:02.11,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ШИКАРНЫЕ
+Dialogue: 0,0:02:02.11,0:02:02.26,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТАЙМИНГ
+Dialogue: 0,0:02:06.87,0:02:07.23,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЭМОЦИЙ
+Dialogue: 0,0:02:07.23,0:02:08.07,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЛУЧИТЬ И В
+Dialogue: 0,0:02:08.07,0:02:08.71,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЦЕЛОМ ВСЕ ТО
+Dialogue: 0,0:02:08.71,0:02:09.00,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТО ЧТО
+Dialogue: 0,0:02:12.67,0:02:12.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЕСТЬ
+Dialogue: 0,0:02:12.95,0:02:13.31,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}СВОБОДА
+Dialogue: 0,0:02:13.31,0:02:13.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЕСТЬ СВОБОДНЫЕ
+Dialogue: 0,0:02:13.95,0:02:15.35,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЧАСЫ ЕСТЬ ВРЕМЯ
+Dialogue: 0,0:02:15.35,0:02:15.87,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДА КОГДА ВЫ
+Dialogue: 0,0:02:15.87,0:02:16.47,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МОЖЕТЕ САМИ ТАМ
+Dialogue: 0,0:02:16.47,0:02:17.23,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОЙТИ ЧТО-ТО ТАМ
+Dialogue: 0,0:02:17.23,0:02:17.83,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ПОСМОТРЕТЬ МЫ В
+Dialogue: 0,0:02:17.83,0:02:18.63,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ЯПОНИИ ТАКЖЕ БЫЛИ
+Dialogue: 0,0:02:18.63,0:02:19.03,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}У НАС БЫЛА
+Dialogue: 0,0:02:19.03,0:02:19.55,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДЕВЧОНКА И
+Dialogue: 0,0:02:19.55,0:02:20.07,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}КЛАССНО
+Dialogue: 0,0:02:20.07,0:02:20.95,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ДА ТОЖЕ И
+Dialogue: 0,0:02:20.95,0:02:21.67,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ОНА НАМ ОБЪЯСНИЛА
+Dialogue: 0,0:02:21.67,0:02:22.11,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ВСЕ И ПОТОМ
+Dialogue: 0,0:02:22.11,0:02:22.59,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}МЫ УЖЕ САМИ
+Dialogue: 0,0:02:22.59,0:02:24.07,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ХОДИЛИ ПО УЛОЧКАМ
+Dialogue: 0,0:02:24.07,0:02:25.38,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}ТАМ СЯМ
+Dialogue: 0,0:02:29.17,0:02:29.89,Word,,0,0,0,,{\an2\pos(960,905)\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)}СПАСИБО ВАМ ЗА
+Dialogue: 0,0:02:29.89,0:02:30.21,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ЧЕСТНЫЙ
+Dialogue: 0,0:02:30.21,0:02:31.23,Key,,0,0,0,,{\an2\pos(960,900)\fscx30\fscy30\t(0,110,\fscx122\fscy122)\t(110,190,\fscx94\fscy94)\t(190,260,\fscx100\fscy100)}ОТЗЫВ
